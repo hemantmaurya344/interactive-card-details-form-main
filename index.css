@@ -1,0 +1,34 @@
+@import url('https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@500&display=swap');
+
+body{
+    font-family: 'Space Grotesk', sans-serif;
+}
+
+
+
+@media screen and (max-width: 375px) {
+    body{
+        background-image: url(/images/bg-main-mobile.png);
+        background-repeat: no-repeat;
+        margin: 0;
+        padding: 0;
+    }
+    .back-img img{
+        height: auto;
+        width: 15em;
+        margin: 2em 0 1em 3em;
+    }
+    .back-img h4{
+        position: absolute;
+        font-size: 0.6em;
+        color: hsl(270, 3%, 87%);
+        margin: -8.4em 0 -5em 25em;
+    }
+
+    .attribution {
+         font-size: 11px; text-align: center; 
+        }
+    .attribution a {
+         color: hsl(228, 45%, 44%); 
+        }
+}
