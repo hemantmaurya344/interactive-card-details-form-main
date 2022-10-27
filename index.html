@@ -16,28 +16,45 @@
   </div>
 
   <div class="front-img">
-    <img src="/images/bg-card-front.png" alt="card-front-image">
-    
+    <img src="/images/bg-card-front.png" class="card-img" alt="card-front-image">
+    <div class="cardlogo">
+      <img src="/images/card-logo.svg" alt="card-logo">
+    </div>
+    <h4 class="card-no">0000 0000 0000 0000</h4>
+    <h4 class="cardholder-name">Jane Appleseed</h4>
+    <h4 class="card-exp-date"> 00/00</h4>
   </div>
 
-  <!-- 0000 0000 0000 0000
-  Jane Appleseed
-  00/00
+  <!-- input details -->
+  <div class="formcontainer">
+    <form action="submit">
+      <div class="form-cardholder-name">
+        <label for="name">Cardholder Name</label>
+        <input type="text" name="Cardholder Name" id="" placeholder="e.g. Jane Appleseed">
+      </div>
+      <div class="form-card-number">
+        <label for="number">Card Number</label>
+        <input type="number" name="Card Number" id="card-number" placeholder="e.g. 1234 5678 9123 0000">
+      </div>
+      <div class="form-exp-date">
+        <label for="Exp Date">Exp. Date (MM/YY)</label>
+        <input type="text" name="month" id="form-month" placeholder="MM">
+        <input type="text" name="year" id="form-year" placeholder="YY">
+      </div>
+      <div class="form-cvv">
+        <label for="">CVC</label>
+        <input type="password" name="" id="form-cvv" placeholder="  e.g. 123
+">
+      </div>
+    </form>
+  </div>
 
+  <!--  
+      
+  
   
 
-  Cardholder Name
-  e.g. Jane Appleseed
-
-  Card Number
-  e.g. 1234 5678 9123 0000
-
-  Exp. Date (MM/YY)
-  MM
-  YY
-
-  CVC
-  e.g. 123
+  
 
   Confirm -->
 
