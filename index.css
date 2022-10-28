@@ -63,12 +63,97 @@ body{
         font-weight: 100;
     }
     .card-img{
-        box-shadow: 23px 30px 55px 9px rgba(0, 0, 0, 0.08);
+        box-shadow: 23px 30px 55px 10px rgba(0, 0, 0, 0.13);
     }
-    .attribution {
+    .formcontainer{
+        position: relative;
+        top: 3em;
+    }
+    .form-cardholder-name > label{
+        text-transform: uppercase;
+        letter-spacing: 0.2em;
+        margin-left: 2.5em;
+        font-size: 0.8em;
+        color: hsl(278, 68%, 11%);
+    }
+    .form-cardholder-name > input{
+        margin: 0.5em 0  1em 1.5em;
+        padding: 1em;
+        height: 0.1em;
+        width: 15em;
+        font-size: 1.2em;
+        border-radius: 0.5em;
+        border: 0.1em solid hsl(279, 6%, 55%);
+        opacity: 50%;
+    }
+   
+    .form-card-number > label{
+        text-transform: uppercase;
+        letter-spacing: 0.2em;
+        margin-left: 2.5em;
+        font-size: 0.8em;
+        color: hsl(278, 68%, 11%);
+    }
+    .form-card-number > input{
+        margin: 0.5em 0  1em 1.5em;
+        padding: 1em;
+        height: 0.1em;
+        width: 15em;
+        font-size: 1.2em;
+        border-radius: 0.5em;
+        border: 0.1em solid hsl(279, 6%, 55%);
+        opacity: 50%;
+    }
+
+    .form-exp-date > label{
+        text-transform: uppercase;
+        letter-spacing: 0.2em;
+        margin-left: 2.5em;
+        font-size: 0.8em;
+        color: hsl(278, 68%, 11%);
+    }
+    .form-exp-date > div > input{
+        margin: 0.5em 0  1em 1.5em;
+        padding: 0 0 0 0.8em;
+        height: 2.2em;
+        width: 2.5em;
+        font-size: 1.2em;
+        border-radius: 0.5em;
+        border: 0.1em solid hsl(279, 6%, 55%);
+        opacity: 50%;
+        
+    } 
+    .form-exp-date > div >input:last-child{
+        margin-left: 0.2em;
+    }
+    .form-cvv{
+        margin: 0 0 0 2em;
+    }
+    .form-cvv > label{
+        text-transform: uppercase;
+        letter-spacing: 0.2em;
+        margin-left: 0;
+        font-size: 0.8em;
+        color: hsl(278, 68%, 11%);
+    }
+    .form-cvv > input{
+        margin: 0.5em 0  1em 1.5em;
+        padding: 0 0 0 0.8em;
+        height: 2.2em;
+        width: 5em;
+        font-size: 1.2em;
+        border-radius: 0.5em;
+        border: 0.1em solid hsl(279, 6%, 55%);
+        opacity: 50%;
+        
+    } 
+    .form-lastentry-css{
+        display: flex;
+    }
+    /* .attribution {
          font-size: 11px; text-align: center; 
         }
     .attribution a {
          color: hsl(228, 45%, 44%); 
-        }
+        } */
 }
