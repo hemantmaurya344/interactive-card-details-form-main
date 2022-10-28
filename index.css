@@ -2,9 +2,13 @@
 
 body{
     font-family: 'Space Grotesk', sans-serif;
+    background-image: url(/images/bg-main-desktop.png);
+    background-repeat: no-repeat;
+    margin: 0;
+    padding: 0;
 }
 
-@media (min-width: 375px) and (max-width: 1000px) {
+@media (min-width: 375px) and (max-width: 800px) {
     body{
         background-image: url(/images/bg-main-mobile.png);
         background-repeat: no-repeat;
@@ -13,7 +17,7 @@ body{
     }
     .back-img img{
         height: auto;
-        width: 17em;
+        width: 17vh;
         margin: 2em 0 1em 5em;
     }
     .back-img h4{
