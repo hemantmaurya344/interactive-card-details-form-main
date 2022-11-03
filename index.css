@@ -88,16 +88,16 @@ body{
 .form-card-number > label{
     text-transform: uppercase;
     letter-spacing: 0.2em;
-    margin-left: 2.5em;
-    font-size: 0.8em;
+    margin-left: 87em;
+    font-size: 0.6em;
     color: hsl(278, 68%, 11%);
 }
 .form-card-number > input{
-    margin: 0.5em 0  1em 1.5em;
+    margin: 0.5em 0  1em 52.2em;
     padding: 1em;
     height: 0.1em;
-    width: 15em;
-    font-size: 1.2em;
+    width: 20em;
+    font-size: 1em;
     border-radius: 0.5em;
     border: 0.1em solid hsl(279, 6%, 55%);
     opacity: 50%;
@@ -106,16 +106,16 @@ body{
 .form-exp-date > label{
     text-transform: uppercase;
     letter-spacing: 0.2em;
-    margin-left: 2.5em;
-    font-size: 0.8em;
+    margin-left: 87em;
+    font-size: 0.6em;
     color: hsl(278, 68%, 11%);
 }
 .form-exp-date > div > input{
-    margin: 0.5em 0  1em 1.5em;
-    padding: 0 0 0 0.8em;
+    margin: 0.5em 0  1em 52.2em;
+    padding: 0 0.5em 0 0.8em;
     height: 2.2em;
     width: 2.5em;
-    font-size: 1.2em;
+    font-size: 1em;
     border-radius: 0.5em;
     border: 0.1em solid hsl(279, 6%, 55%);
     opacity: 50%;
@@ -127,24 +127,46 @@ body{
 .form-cvv{
     margin: 0 0 0 2em;
 }
+.form-lastentry-css{
+    display: flex;
+}
 .form-cvv > label{
     text-transform: uppercase;
+    position: absolute;
     letter-spacing: 0.2em;
-    margin-left: 0;
-    font-size: 0.8em;
+    margin: 0.8em 0 0 0.5em;
+    
+    font-size: 0.6em;
     color: hsl(278, 68%, 11%);
 }
 .form-cvv > input{
-    margin: 0.5em 0  1em 1.5em;
-    padding: 0 0 0 0.8em;
+    margin: 1.8em 0  1em 0;
+    padding: 0 0 0 0.1em;
     height: 2.2em;
-    width: 5em;
-    font-size: 1.2em;
+    width: 11.5em;
+    font-size: 1em;
     border-radius: 0.5em;
     border: 0.1em solid hsl(279, 6%, 55%);
     opacity: 50%;
     
 } 
+.formcontainer input[type="submit"]{
+    background-color: hsl(278, 68%, 11%);
+    color: hsl(0, 0%, 100%);
+    border: none;
+    position: absolute;
+    left: 52.5em;
+    top: 17em;
+    font-size: 1em;
+    padding: 0.5em;
+    height: 3em;
+    width: 22em;
+    border-radius: 0.3em;
+}
+.form-cardholder-name > input:focus{
+    opacity: 100%;
+    border: 0.1em solid hsl(249, 99%, 64%) ;
+}
 
 @media (min-width: 300px) and (max-width: 500px) {
     body{
