@@ -1,11 +1,13 @@
 @import url('https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@500&display=swap');
 
-body{
+*{
     font-family: 'Space Grotesk', sans-serif;
-    background-image: url(/images/bg-main-desktop.png);
-    background-repeat: no-repeat;
     margin: 0;
     padding: 0;
+}
+body{
+    background-image: url(/images/bg-main-desktop.png);
+    background-repeat: no-repeat;
 }
 .front-img img{
     position: absolute;
@@ -135,7 +137,6 @@ body{
     position: absolute;
     letter-spacing: 0.2em;
     margin: 0.8em 0 0 0.5em;
-    
     font-size: 0.6em;
     color: hsl(278, 68%, 11%);
 }
@@ -230,11 +231,55 @@ body{
         font-size: 0.8em;
     }
     .form-cardholder-name > input{
-        margin: 12em 0  0 1.5em;
-        padding: 1em;
+        margin: 10em 0  0 1.4em;
         width: 15em;
-        font-size: 1.1em;
-        font-weight: 200;
+        font-size: 1.2em;
     }
-
+    .form-card-number > label{
+        position: absolute;
+        top: 20em;
+        margin-left: 2.2em;
+        font-size: 0.8em;
+    }
+    .form-card-number > input{
+        margin: 2.5em 0  0 1.4em;
+        height: 0.1em;
+        width: 15em;
+        font-size: 1.2em;
+    }
+    .form-exp-date > label{
+        position: absolute;
+        margin: 1.5em 0 0 2.3em;
+        font-size: 0.8em;
+    }
+    .form-exp-date > div > input{
+        margin: 2.5em 0  0 1.5em;
+        padding: 0 0.1em 0 0.9em;
+        font-size: 1.2em;
+    } 
+    .form-cvv > label{
+        margin: 0.4em 0 0 0.5em;
+        font-size: 0.8em;
+    }
+    .form-cvv{
+        margin: 1em 0 0 1.5em;
+    }
+    .form-cvv > input{
+        margin: 1.5em 0  1em 0;
+        height: 2em;
+        width: 7.5em;
+        font-size: 1.2em;       
+    } 
+    .formcontainer input[type="submit"]{
+        left: 1.5em;
+        top: 24em;
+        font-size: 1.2em;
+        height: 2.5em;
+        width: 17.2em;
+    }
+    .attribution {
+        position: absolute;
+        text-align: centre;
+        margin: 25em 0 0 3.5em;
+    }
 }
