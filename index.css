@@ -181,3 +181,60 @@ body{
 .attribution a {
     color: hsl(228, 45%, 44%); 
 }
+
+@media screen and (min-width: 375px) and (max-width: 785px) {
+    body{
+        background-image: url(/images/bg-main-mobile.png);
+        background-repeat: no-repeat;
+    }
+    .back-img img{      
+        max-width: 18em;
+        margin: 3em 0 1em 4em;
+    }
+    .front-img img{
+        width: 18em;
+        margin: 8.6em 0 0 0.8em;
+    }
+    .card-front-logo img{
+        width: 3em;
+        margin: 10em 0 0 2em;
+    }
+    .back-img h4{
+        margin: 12.5em 0 -5em 31em;
+    }
+    .card-no{
+        top: 10em;
+        left: 1.5em;
+        font-size: 1.2em;
+        letter-spacing: 0.1em;            
+    }
+    .cardholder-name{
+       top: 28.5em;
+        left: 4em;
+        font-size: 0.55em;
+    }
+    .card-exp-date{
+        top: 28.5em;
+        left: 26em;
+        font-size: 0.55em;
+    }
+    .formcontainer{
+        top: 11em;
+    }
+    .card-img{
+        box-shadow: 23px 30px 55px 10px rgba(0, 0, 0, 0.13);
+    }
+    .form-cardholder-name > label{
+        position: absolute;
+        margin: 13em 0 0 2em;
+        font-size: 0.8em;
+    }
+    .form-cardholder-name > input{
+        margin: 12em 0  0 1.5em;
+        padding: 1em;
+        width: 15em;
+        font-size: 1.1em;
+        font-weight: 200;
+    }
+
+}
