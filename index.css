@@ -8,6 +8,8 @@
 body{
     background-image: url(/images/bg-main-desktop.png);
     background-repeat: no-repeat;
+    height: auto;
+    width: auto;
 }
 .front-img img{
     position: absolute;
@@ -36,7 +38,7 @@ body{
 
 .card-no{
     position: absolute;
-    top: 11em;
+    top: 11.5em;
     left: 20em;
     font-size: 1.1em;
     letter-spacing: 0.2em;   
@@ -168,10 +170,10 @@ body{
     background-color: #664BFB;
     transition: ease-in-out 0.5s;
 }
-.form-cardholder-name>input[type="text"]:focus{
+/* .form-cardholder-name>input:focus{
     opacity: 100%;
     border-color: 0.1em solid hsl(249, 99%, 64%);
-}
+} */
 
 .attribution {
     font-size: 11px; 
@@ -187,6 +189,8 @@ body{
     body{
         background-image: url(/images/bg-main-mobile.png);
         background-repeat: no-repeat;
+        height: auto;
+        width: auto;
     }
     .back-img img{      
         max-width: 18em;
