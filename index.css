@@ -6,6 +6,7 @@
     padding: 0;
 }
 body{
+    background-size: auto;
     background-image: url(/images/bg-main-desktop.png);
     background-repeat: no-repeat;
     height: auto;
@@ -144,7 +145,7 @@ body{
 }
 .form-cvv > input{
     margin: 1.8em 0  1em 0;
-    padding: 0.2em;
+    padding-left: 0.8em;
     height: 2.2em;
     width: 11.2em;
     font-size: 1em;
@@ -185,12 +186,11 @@ body{
     color: hsl(228, 45%, 44%); 
 }
 
-@media screen and (min-width: 375px) and (max-width: 785px) {
+@media screen and (min-width: 300px) and (max-width: 785px) {
     body{
         background-image: url(/images/bg-main-mobile.png);
         background-repeat: no-repeat;
-        height: auto;
-        width: auto;
+        
     }
     .back-img img{      
         max-width: 18em;
@@ -225,6 +225,7 @@ body{
     }
     .formcontainer{
         top: 11em;
+        /* margin: 0.2rem; */
     }
     .card-img{
         box-shadow: 23px 30px 55px 10px rgba(0, 0, 0, 0.13);
@@ -236,7 +237,7 @@ body{
     }
     .form-cardholder-name > input{
         margin: 10em 0  0 1.4em;
-        width: 15em;
+        width: 14em;
         font-size: 1.2em;
     }
     .form-card-number > label{
@@ -248,7 +249,7 @@ body{
     .form-card-number > input{
         margin: 2.5em 0  0 1.4em;
         height: 0.1em;
-        width: 15em;
+        width: 14em;
         font-size: 1.2em;
     }
     .form-exp-date > label{
@@ -271,7 +272,7 @@ body{
     .form-cvv > input{
         margin: 1.5em 0  1em 0;
         height: 2em;
-        width: 7.5em;
+        width: 6.5em;
         font-size: 1.2em;       
     } 
     .formcontainer input[type="submit"]{
@@ -279,11 +280,11 @@ body{
         top: 24em;
         font-size: 1.2em;
         height: 2.5em;
-        width: 17.2em;
+        width: 16.3em;
     }
     .attribution {
         position: absolute;
         text-align: centre;
-        margin: 25em 0 0 3.5em;
+        margin: 25em 0 0 3em;
     }
 }
